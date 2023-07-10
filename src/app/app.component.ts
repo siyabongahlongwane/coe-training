@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'coe-training';
+  routes: any[] = [
+    {
+      name: "About",
+      route: "app/about"
+    },
+    {
+      name: "Contact",
+      route: "app/contact"
+    },
+  ]
 }
